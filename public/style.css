@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Open Sans";
+  color: #4a4a4a;
+}
+
+body {
+  background-color: #fff;
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #00aec5;
+}
+
+strong {
+  color:#9b9b9b;
+}
+.main {
+  background-color: #f4f4f4;
+  padding: 30px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 2px;
+}
+
+.main div {
+  width: 100%;
+  overflow: hidden;
+}
+
+.main__mobileno, .main__message {
+  width: 95%;
+  float: left;
+
+  border-radius: 2px;
+  border: none;
+}
+
+.main__message {
+  padding:10px;
+}
+
+.main__mobileno {
+  background-color: #eae8e8;
+  padding:5px;
+}
+
+.main__button {
+  color: #fff;
+  background-color: #00aec5;
+  width: 100px;
+  padding: 5px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 2px;
+  border-style: none;
+}
+
+.main__button:hover {
+  opacity: .8;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  background-color: #f4f4f4;
+  margin-top: 30px;
+  text-align: center;
+  color: #00aec5;
+  padding: 12px;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.logo {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+input+span {
+  padding-right: 30px;
+  padding-top: 5px;
+  float: right;
+  min-height: 21px;
+}
+
+input:invalid+span:after {
+  content: 'INVALID NUMBER';
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size:.90rem;
+  color: #8b0000;
+}
