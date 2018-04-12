@@ -4,7 +4,23 @@ Burstsms client and api for sending sms messages using ReactJS and nodejs api us
 Converts URL with Bitly URL before sending the message. You will need an access token from bitly.
 
 
-clone or download and install using: npm install
+
+## This project demonstrates:
+
+A simple React project
+
+babel setup and configuration
+
+webpack setup and configuration
+
+Bitly API integration 
+
+BurstSMS API integration
+
+
+
+
+## clone or download and install using: npm install
 
 NOTE: Include .env file in the root directory of the application containing the following information:
 
