@@ -12,10 +12,12 @@ pass="`<secret>`"
 
 access_token="`<access token for_bitly api>`"
 
+
 run command line:
 
 node server
 
+visit:
 URL: http://localhost:3000
 
 NOTE: run npm test to run test suite
