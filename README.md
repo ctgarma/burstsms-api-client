@@ -1,5 +1,5 @@
 # burstsms-api-client
-Burstsms client and api for sending sms messages using Burstsms API services
+Burstsms client and api for sending sms messages using ReactJS and nodejs api using express
 
 
 clone or download and install using: npm install
