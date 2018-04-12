@@ -6,9 +6,11 @@ clone or download and install using: npm install
 
 NOTE: Include .env file in the root directory of the application containing the following information:
 
-user="<access key provided by burstsms>"
-pass="<secret>"
-access_token="<access token for_bitly api>"
+user="`<access key provided by burstsms>`"
+
+pass="`<secret>`"
+
+access_token="`<access token for_bitly api>`"
 
 run command line:
 
